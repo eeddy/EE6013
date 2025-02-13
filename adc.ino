@@ -1,8 +1,9 @@
-const int adcPin = 36; 
+const int adcPin = 1; 
 int adcValue = 0;      
 
 void setup() {
     Serial.begin(115200);  
+    
 }
 
 void loop() {
