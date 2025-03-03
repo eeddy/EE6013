@@ -1,0 +1,44 @@
+PARTS LIST
+
+1uF               CAPC2013X135X45LL10T25C4
+B2B-PH-K-S(LF)(SN)JST_B2B-PH-K-S(LF)(SN)J1
+61300411121       61300411121     P0
+61300411121       61300411121     P1
+61300411121       61300411121     P2
+61300411121       61300411121     P3
+61300411121       61300411121     P4
+61300411121       61300411121     P5
+61300411121       61300411121     P6
+61300411121       61300411121     P7
+ESP32-S3-DEVKITC-1-N8R2XCVR_ESP32-S3-DEVKITC-1-N8R2U1
+TLV75801PDBVR     SOT95P280X145-5NU2
+EOS
+NET LIST
+
+NODENAME GND              $
+    C4         1  J1         2  P0         4  P1         4  P2         4  P3         4  P4         4  P5         4  P6         4  P7         4  U1     J1_22  U1      J3_1  U1     J3_21  U1     J3_22
+NODENAME Enable           $
+    U1     J3_14  U2         3
+NODENAME ADC-7            $
+    P7         1  U1     J1_12
+NODENAME ADC-6            $
+    P6         1  U1      J1_7
+NODENAME ADC-5            $
+    P5         1  U1      J1_6
+NODENAME ADC-4            $
+    P4         1  U1      J1_5
+NODENAME ADC-3            $
+    P3         1  U1      J1_4
+NODENAME ADC-2            $
+    P2         1  U1     J1_13
+NODENAME ADC-1            $
+    P1         1  U1      J3_5
+NODENAME ADC-0            $
+    P0         1  U1      J3_4
+NODENAME 3.7V             $
+    J1         1  U1     J1_21  U2         1
+NODENAME 3.3V             $
+    P0         3  P1         3  P2         3  P3         3  P4         3  P5         3  P6         3  P7         3
+NODENAME 1.8V             $
+    C4         2  P0         2  P1         2  P2         2  P3         2  P4         2  P5         2  P6         2  P7         2
+EOS
