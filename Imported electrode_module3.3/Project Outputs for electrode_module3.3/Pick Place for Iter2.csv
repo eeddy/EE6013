@@ -1,0 +1,33 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\Single channel EMG 02_17\Imported electrode_module3.3\Project Outputs for electrode_module3.3\Pick Place for Iter2.csv
+
+========================================================================================================================
+File Design Information:
+
+Date:       04-03-25
+Time:       16:27
+Revision:   Not in VersionControl
+Variant:    No variations
+Units used: mil
+
+"Designator","Comment","Layer","Footprint","Center-X(mil)","Center-Y(mil)","Rotation","Description"
+"VR1","100k","TopLayer","BOUR-3362P","2815.000","4635.000","270","Square Trimpot(R) Trimming Potentiometer, 100 KOhm, 300 V, -55 to 125 degC, 3-Pin THD, RoHS, Tube"
+"U2","TLV9002IDSGR","TopLayer","FP-DSG0008A-IPC_C","1910.005","4540.000","0","IC OPAMP GP 2 CIRCUIT 8WSON"
+"U1","INA333AIDGKR","TopLayer","DGK0008A_N","2275.001","4395.004","0","Low Power, Precision Instrumentation Amplifier, -40 to 125 degC, 8-pin SOP (DGK8), Green (RoHS & no Sb/Br)"
+"R8","3k","TopLayer","FP-CRCW0603-e3-MFG","2475.002","4349.994","0","RES Thick Film, 3kO, 1%, 0.1W, 100ppm/°C, 0603"
+"R7","300","TopLayer","FP-CRCW0603-e3-IPC_A","2500.000","4147.102","90","RES Thick Film, 300O, 1%, 0.1W, 100ppm/°C, 0603"
+"R6","RT0603BRD071ML","TopLayer","RESC1608X55N","2015.000","4369.999","90","1 MOhms Â±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
+"R5","1.6k","TopLayer","RESC1609X50X30LL10T20","2470.003","4445.000","180",""
+"R4","3k","TopLayer","FP-CRCW0603-e3-MFG","1774.997","4710.000","180","RES Thick Film, 3kO, 1%, 0.1W, 100ppm/°C, 0603"
+"R3","ERA-3AEB103V","TopLayer","FP-ERA3A-IPC_C","2125.368","4195.000","180","RES SMD 10K OHM 0.1% 1/10W 0603"
+"R2","AC0603FR-071KL","TopLayer","FP-AC0603-IPC_B","2284.421","4545.000","180","RES 1kO 1.00% 0.1W 0603"
+"R1","RT0603BRD071ML","TopLayer","RESC1608X55N","2100.000","4372.717","90","1 MOhms Â±0.1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Thin Film"
+"J2","TSW-102-26-F-S","TopLayer","SMTC-TSW-102-26-XX-S","2790.000","4425.000","180","0.025" SQ Post Header, Through-hole, Vertical, -55 to 125 degC, 2.54 mm Pitch, 2-Pin, Male, RoHS"
+"J1","951103-8622-AR","TopLayer","FP-951103-8622-AR-MFG","1620.000","4603.042","90","CONN HEADER VERT 3POS 2MM"
+"C7","100n","TopLayer","FP-CGA3E-0_3-0_1-IPC_A","1960.000","4150.355","90","Cap Ceramic 100nF 50V X7R 10% Pad SMD 0603 +125°C Automotive T/R"
+"C6","CGA3E2X7R1H104K080AA","TopLayer","FP-CGA3E-0_3-0_1-IPC_A","2319.999","4200.000","0","Cap Ceramic 100nF 50V X7R 10% Pad SMD 0603 +125°C Automotive T/R"
+"C5","CGA3E2X7R1H104K080AA","TopLayer","FP-CGA3E-0_3-0_1-IPC_A","1750.000","4535.355","90","Cap Ceramic 100nF 50V X7R 10% Pad SMD 0603 +125°C Automotive T/R"
+"C4","CGA3E2X7R1H104K080AA","TopLayer","FP-CGA3E-0_3-0_1-IPC_A","2099.646","4550.000","0","Cap Ceramic 100nF 50V X7R 10% Pad SMD 0603 +125°C Automotive T/R"
+"C3","CGA3E2X7R1H104K080AA","TopLayer","FP-CGA3E-0_3-0_1-IPC_A","2475.000","4540.000","180","Cap Ceramic 100nF 50V X7R 10% Pad SMD 0603 +125°C Automotive T/R"
+"C2","100n","TopLayer","FP-CGA3E-0_3-0_1-IPC_A","1850.355","4385.000","0","Cap Ceramic 100nF 50V X7R 10% Pad SMD 0603 +125°C Automotive T/R"
+"C1","GRM188R71E224KA88D","TopLayer","FP-GRM188-0_1-e0_2_0_5-IPC_C","1935.326","4710.000","0","Chip Multilayer Ceramic Capacitors for General Purpose, 0603, 0.22uF, X7R, 15%, 10%, 25V"
