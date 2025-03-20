@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=3.4V Pin=C2-1
+Removed Pin From Net: NetName=GND Pin=J0-4
+Removed Pin From Net: NetName=GND Pin=J1-4
+Removed Pin From Net: NetName=GND Pin=J2-4
+Removed Pin From Net: NetName=GND Pin=J3-4
+Removed Pin From Net: NetName=GND Pin=J4-4
+Removed Pin From Net: NetName=GND Pin=J5-4
+Removed Pin From Net: NetName=GND Pin=J6-4
+Removed Pin From Net: NetName=GND Pin=J7-4
+Removed Pin From Net: NetName=3.4V Pin=R1-2
+Removed Pin From Net: NetName=1.65V Pin=R3-2
+Removed Pin From Net: NetName=1.65V Pin=R5-2
+Removed Pin From Net: NetName=3.4V Pin=U1-5
+Removed Pin From Net: NetName=1.65V Pin=U2-1
+Added Pin To Net: NetName=1.65V Pin=C2-1
+Added Pin To Net: NetName=GND Pin=J0-1
+Added Pin To Net: NetName=GND Pin=J1-1
+Added Pin To Net: NetName=GND Pin=J2-1
+Added Pin To Net: NetName=GND Pin=J3-1
+Added Pin To Net: NetName=GND Pin=J4-1
+Added Pin To Net: NetName=GND Pin=J5-1
+Added Pin To Net: NetName=GND Pin=J6-1
+Added Pin To Net: NetName=GND Pin=J7-1
+Added Pin To Net: NetName=1.65V Pin=R1-2
+Added Pin To Net: NetName=3.4V Pin=R3-2
+Added Pin To Net: NetName=3.4V Pin=R5-2
+Added Pin To Net: NetName=1.65V Pin=U1-5
+Added Pin To Net: NetName=3.4V Pin=U2-1
+Change Net Name : Old Net Name=1.65V New Net Name=3.4V
+Change Net Name : Old Net Name=3.4V New Net Name=1.65V
+Change Net Name : Old Net Name=Enable New Net Name=EN
+Added Pin To Net: NetName=ADC0 Pin=J0-4
+Added Pin To Net: NetName=ADC0 Pin=U3-J3_4
+Added Net: Name=ADC0
+Added Pin To Net: NetName=ADC1 Pin=J1-4
+Added Pin To Net: NetName=ADC1 Pin=U3-J3_5
+Added Net: Name=ADC1
+Added Pin To Net: NetName=ADC2 Pin=J2-4
+Added Pin To Net: NetName=ADC2 Pin=U3-J1_13
+Added Net: Name=ADC2
+Added Pin To Net: NetName=ADC3 Pin=J3-4
+Added Pin To Net: NetName=ADC3 Pin=U3-J1_4
+Added Net: Name=ADC3
+Added Pin To Net: NetName=ADC4 Pin=J4-4
+Added Pin To Net: NetName=ADC4 Pin=U3-J1_5
+Added Net: Name=ADC4
+Added Pin To Net: NetName=ADC5 Pin=J5-4
+Added Pin To Net: NetName=ADC5 Pin=U3-J1_6
+Added Net: Name=ADC5
+Added Pin To Net: NetName=ADC6 Pin=J6-4
+Added Pin To Net: NetName=ADC6 Pin=U3-J1_7
+Added Net: Name=ADC6
+Added Pin To Net: NetName=ADC7 Pin=J7-4
+Added Pin To Net: NetName=ADC7 Pin=U3-J1_12
+Added Net: Name=ADC7

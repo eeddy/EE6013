@@ -1,0 +1,83 @@
+Removed Pin From Net: NetName=ADC_0 Pin=P0-1
+Removed Pin From Net: NetName=1.65V Pin=P0-2
+Removed Pin From Net: NetName=3.4V Pin=P0-3
+Removed Pin From Net: NetName=GND Pin=P0-4
+Removed Pin From Net: NetName=ADC_1 Pin=P1-1
+Removed Pin From Net: NetName=1.65V Pin=P1-2
+Removed Pin From Net: NetName=3.4V Pin=P1-3
+Removed Pin From Net: NetName=GND Pin=P1-4
+Removed Pin From Net: NetName=ADC_2 Pin=P2-1
+Removed Pin From Net: NetName=1.65V Pin=P2-2
+Removed Pin From Net: NetName=3.4V Pin=P2-3
+Removed Pin From Net: NetName=GND Pin=P2-4
+Removed Pin From Net: NetName=ADC_3 Pin=P3-1
+Removed Pin From Net: NetName=1.65V Pin=P3-2
+Removed Pin From Net: NetName=3.4V Pin=P3-3
+Removed Pin From Net: NetName=GND Pin=P3-4
+Removed Pin From Net: NetName=ADC_4 Pin=P4-1
+Removed Pin From Net: NetName=1.65V Pin=P4-2
+Removed Pin From Net: NetName=3.4V Pin=P4-3
+Removed Pin From Net: NetName=GND Pin=P4-4
+Removed Pin From Net: NetName=ADC_5 Pin=P5-1
+Removed Pin From Net: NetName=1.65V Pin=P5-2
+Removed Pin From Net: NetName=3.4V Pin=P5-3
+Removed Pin From Net: NetName=GND Pin=P5-4
+Removed Pin From Net: NetName=ADC_6 Pin=P6-1
+Removed Pin From Net: NetName=1.65V Pin=P6-2
+Removed Pin From Net: NetName=3.4V Pin=P6-3
+Removed Pin From Net: NetName=GND Pin=P6-4
+Removed Pin From Net: NetName=ADC_7 Pin=P7-1
+Removed Pin From Net: NetName=1.65V Pin=P7-2
+Removed Pin From Net: NetName=3.4V Pin=P7-3
+Removed Pin From Net: NetName=GND Pin=P7-4
+Removed Member From Class: ClassName=Sheet1 Member=J?
+Removed Member From Class: ClassName=Sheet1 Member=P0
+Removed Member From Class: ClassName=Sheet1 Member=P1
+Removed Member From Class: ClassName=Sheet1 Member=P2
+Removed Member From Class: ClassName=Sheet1 Member=P3
+Removed Member From Class: ClassName=Sheet1 Member=P4
+Removed Member From Class: ClassName=Sheet1 Member=P5
+Removed Member From Class: ClassName=Sheet1 Member=P6
+Removed Member From Class: ClassName=Sheet1 Member=P7
+Change Component Designator: OldDesignator=J? NewDesignator=J1
+Added Component: Designator=J2(FP-ZHR-4-MFG)
+Add component (AddParameter): Name = "Color"; Value = "Natural"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Connector Type"; Value = "Receptacle"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Material"; Value = "Brass"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Resistance"; Value = "20mR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Type"; Value = "Female Socket"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Current Rating"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Depth"; Value = "4.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Flammability Rating"; Value = "UL94 V-0"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Gender"; Value = "Female"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.28inch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Color"; Value = "White"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Housing Material"; Value = "Polyamide"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Insulation Resistance"; Value = "500MR"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Length"; Value = "7.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Material"; Value = "Nylon"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Current Rating"; Value = "1A"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Operating Temperature"; Value = "85°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Max Voltage Rating (AC)"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Min Operating Temperature"; Value = "-25°C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mount"; Value = "Free Hanging"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Positions"; Value = "4"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Rows"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Orientation"; Value = "Straight"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Packaging"; Value = "Bulk"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Panel Thickness"; Value = "3.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "1.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "REACH SVHC"; Value = "No SVHC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Series"; Value = "ZH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Termination"; Value = "Crimp"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Test Voltage"; Value = "500V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (AC)"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Voltage Rating (DC)"; Value = "50V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Weight"; Value = "0.0625lb"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Width"; Value = "3.4mm"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Sheet1 Member=Component J1 B2B-PH-K-S(LF)(SN)
+Added Member To Class: ClassName=Sheet1 Member=Component J2 ZHR-4
