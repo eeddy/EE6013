@@ -5,7 +5,7 @@
 
 const int adcPin = 1;  
 int adcValue = 0;    
-String BT_name = "ESP32_IBME"; 
+String BT_name = "IBME"; 
 BLECharacteristic *pCharacteristic;
 
 void setup() {
@@ -44,7 +44,10 @@ void loop() {
   adcValue = analogRead(adcPin);  // Read the ADC value from pin 1
   float voltage = adcValue * (3.3 / 4095.0);  // Convert ADC value to voltage
 
-  pCharacteristic->setValue(String(adcValue).c_str());  
+  uint8_t voltageBytes[sizeof(voltage)];
+  memcpy(voltageBytes, &voltage, sizeof(voltage));
+
+  pCharacteristic->setValue(voltageBytes, sizeof(voltage));
   pCharacteristic->notify();
 
   // Optional: Print out the ADC value and voltage to the Serial Monitor
@@ -53,5 +56,5 @@ void loop() {
   // Serial.print(" | Voltage: ");
   // Serial.println(voltage, 3); 
 
-  delay(1000);  // Wait for 1 second before sending the next value
+  delay(5); 
 }

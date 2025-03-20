@@ -1,8 +1,9 @@
 import asyncio
 from bleak import BleakClient, BleakError
+import struct
 
 
-esp32_address = "68:b6:b3:2d:41:bd" # Evan's ESP32 address
+esp32_address = "7c:df:a1:fb:26:55" # ESP #1
 characteristic_uuid = "beb5483e-36e1-4688-b7f5-ea07361b26a8"
 
 
@@ -16,12 +17,13 @@ async def read_data():
                     print(f"Connected to {esp32_address}")
                     while True:
                         try:
-                            value = await client.read_gatt_char("beb5483e-36e1-4688-b7f5-ea07361b26a8")
-                            print(f"Received value: {value.decode('utf-8')}")
+                            value = await client.read_gatt_char(characteristic_uuid)
+                            voltage = struct.unpack('f', value)[0] 
+                            print(f"Received Voltage: {voltage:.3f} V")
                         except Exception as e:
                             print(f"Error reading data: {e}")
                             break
-                        await asyncio.sleep(1)
+                        # await asyncio.sleep(1)
                 else:
                     print("Failed to connect.")
                     break
