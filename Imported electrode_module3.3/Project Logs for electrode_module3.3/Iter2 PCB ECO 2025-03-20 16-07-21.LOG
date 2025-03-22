@@ -1,0 +1,22 @@
+Removed Pin From Net: NetName=VREF Pin=J1-2
+Removed Pin From Net: NetName=VCC Pin=J1-3
+Removed Pin From Net: NetName=out1 Pin=J2-1
+Removed Member From Class: ClassName=electrode_module3.3 Member=J2
+Change Component Footprint: Designator=J1 Old Footprint=FP-951103-8622-AR-MFG New Footprint=JST_B4B-XH-A(LF)(SN)
+Change Component Comment : Designator=J1 Old Comment=951103-8622-AR New Comment=B4B-XH-A(LF)(SN)
+Change Managed Component Library Link : Designator=J1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID= Old ItemGUID=217721C6-3503-4365-A5D4-8E241C189726 New ItemGUID= Old RevisionGUID=6A5B44BE-6AD3-4196-80AF-A78DAAF3B314 New RevisionGUID=
+Change component parameters: Designator = "J1" ("J1"); Footprint = "FP-951103-8622-AR-MFG"; UniqueID = "\IUGWFLIM" ("\IUGWFLIM")
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B4B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "JST Sales"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "B4B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B4B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC Pin=J1-2
+Added Pin To Net: NetName=VREF Pin=J1-3
+Added Pin To Net: NetName=out1 Pin=J1-4
+Added Rule: Name=Schematic Supply Nets
+Added Rule: Name=Schematic Supply Nets_1
+Added Rule: Name=Schematic Supply Nets_2
+Added Rule: Name=Schematic Supply Nets_3
+Added Rule: Name=Schematic Supply Nets_4

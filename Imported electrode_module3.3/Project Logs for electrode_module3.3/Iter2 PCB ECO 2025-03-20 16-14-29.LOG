@@ -1,0 +1,8 @@
+Removed Pin From Net: NetName=VREF Pin=J1-2
+Removed Pin From Net: NetName=VCC Pin=J1-3
+Removed Pin From Net: NetName=out1 Pin=J2-1
+Change Component Footprint: Designator=J1 Old Footprint=FP-951103-8622-AR-MFG New Footprint=JST_B4B-XH-A(LF)(SN)
+Change Component Comment : Designator=J1 Old Comment=951103-8622-AR New Comment=B4B-XH-A(LF)(SN)
+Added Pin To Net: NetName=VCC Pin=J1-2
+Added Pin To Net: NetName=VREF Pin=J1-3
+Added Pin To Net: NetName=out1 Pin=J1-4
